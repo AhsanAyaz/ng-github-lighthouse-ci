@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1593214825952,
+  "timestamp": 1593216236501,
   "index": "/ng-github-lighthouse-ci/index.html",
   "assetGroups": [
     {
@@ -52,7 +52,7 @@
     "/ng-github-lighthouse-ci/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/ng-github-lighthouse-ci/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/ng-github-lighthouse-ci/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/ng-github-lighthouse-ci/index.html": "3338a46d77344755b153ccbae4790907ed38d632",
+    "/ng-github-lighthouse-ci/index.html": "83241a85aca32fa282143dfe6fcfcf65e52f889b",
     "/ng-github-lighthouse-ci/main.66a4628be39679ac7849.js": "9b608644bbfd2ea8fa419dbecac6fbb9609c8508",
     "/ng-github-lighthouse-ci/manifest.webmanifest": "9073c13ca0771fe0c0be489326da42b323a64437",
     "/ng-github-lighthouse-ci/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
