@@ -7,8 +7,21 @@ on:
     branches:
       - master
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: All things angular
+      uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.2.0
+      with:
+        github_access_token: ${{ secrets.ACCESS_TOKEN }} # see the Configuration section for how you can create secrets
+        build_configuration: production # The build environment for the app. please look configurations in your angular.json
+        base_href: /ng-github-lighthouse-ci/   # make sure this corresponds to https://<your_username>.github.io/<base_href>/
+        deploy_branch: gh-pages # The branch the action should deploy to.
+        build_folder: dist/ng-github-lighthouse-ci # The folder where your project is supposed to be after running ng build by the action.
   lhci:
     name: Lighthouse
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
